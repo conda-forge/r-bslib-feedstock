@@ -1,4 +1,4 @@
-{% set version = '0.2.4' %}
+{% set version = "0.2.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bslib_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bslib/bslib_{{ version }}.tar.gz
-  sha256: 4c59e1a5519019d65dd4803af632f9b9c24fe23e94dafaf5f4128e8ca9d89762
+  sha256: ddfc197b47facbb3e4d4fbb77589150772ae04cfba3d1096053f97c99bfeb28c
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -50,9 +50,7 @@ test:
 about:
   home: https://rstudio.github.io/bslib/, https://github.com/rstudio/bslib
   license: MIT
-  summary: Simplifies custom 'CSS' styling of both 'shiny' and 'rmarkdown' via 'Bootstrap' 'Sass'.
-    Supports both 'Bootstrap' 3 and 4 as well as their various 'Bootswatch' themes.
-    An interactive widget is also provided for previewing themes in real time.
+  summary: Simplifies custom 'CSS' styling of both 'shiny' and 'rmarkdown' via 'Bootstrap' 'Sass'. Supports both 'Bootstrap' 3 and 4 as well as their various 'Bootswatch' themes. An interactive widget is also provided for previewing themes in real time.
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT

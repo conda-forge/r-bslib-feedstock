@@ -1,13 +1,17 @@
 About r-bslib
 =============
 
-Home: https://rstudio.github.io/bslib/, https://github.com/rstudio/bslib
+Home: https://rstudio.github.io/bslib/
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bslib-feedstock/blob/main/LICENSE.txt)
 
 Summary: Simplifies custom 'CSS' styling of both 'shiny' and 'rmarkdown' via 'Bootstrap' 'Sass'. Supports both 'Bootstrap' 3 and 4 as well as their various 'Bootswatch' themes. An interactive widget is also provided for previewing themes in real time.
+
+Development: https://github.com/rstudio/bslib
+
+Documentation: https://rstudio.github.io/bslib/reference/index.html
 
 Current build status
 ====================

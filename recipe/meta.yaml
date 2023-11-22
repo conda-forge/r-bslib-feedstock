@@ -28,9 +28,10 @@ requirements:
     - r-base
     - r-base64enc
     - r-cachem
-    - r-htmltools >=0.5.4
+    - r-htmltools >=0.5.7
     - r-jquerylib >=0.1.3
     - r-jsonlite
+    - r-lifecycle
     - r-memoise >=2.0.1
     - r-mime
     - r-rlang
@@ -39,9 +40,10 @@ requirements:
     - r-base
     - r-base64enc
     - r-cachem
-    - r-htmltools >=0.5.4
+    - r-htmltools >=0.5.7
     - r-jquerylib >=0.1.3
     - r-jsonlite
+    - r-lifecycle
     - r-memoise >=2.0.1
     - r-mime
     - r-rlang

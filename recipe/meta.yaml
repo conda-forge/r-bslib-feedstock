@@ -1,4 +1,4 @@
-{% set version = "0.6.2" %}
+{% set version = "0.7.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bslib_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bslib/bslib_{{ version }}.tar.gz
-  sha256: d045944851953b0d7f9306050b2afc2988764154be7849cf787858935558563e
+  sha256: 2135d9841af382673b815a14454abff2f2ce0f5dc97484d1499298b85b752ca0
 
 build:
   merge_build_host: true  # [win]

@@ -1,6 +1,5 @@
 {% set version = "0.7.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-bslib
@@ -13,8 +12,7 @@ source:
   sha256: 2135d9841af382673b815a14454abff2f2ce0f5dc97484d1499298b85b752ca0
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/

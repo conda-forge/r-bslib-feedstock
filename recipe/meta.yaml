@@ -1,4 +1,4 @@
-{% set version = "0.9.0" %}
+{% set version = "0.10.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bslib_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bslib/bslib_{{ version }}.tar.gz
-  sha256: add7a107ff6a3185f68511cfcc45832f018917870eae06a8044f41de84ff0907
+  sha256: b4a8d24855e299a4980b8eac0f1b6213d7e16ff8ef1be530d3623565ea5a56d3
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
